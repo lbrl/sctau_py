@@ -48,11 +48,8 @@ def main():
     mks = .497611#  GeV / c^2
     md0 = 1.86483#  GeV / c^2
     mpip = 0.13957061#  GeV / c^2
-    # t_mks = '#pi^{+}#pi^{#minus} invariant mass (look for K_{S}), GeV/c^{2}'
     t_mks = 'K_{S} mass M(#pi^{+}#pi^{#minus}), GeV/c^{2}'
-    # t_md0 = '2(#pi^{+}#pi^{#minus}) invariant mass (one #pi^{+}#pi^{#minus} from K_{S}, look for D^{0}), GeV/c^{2}'
     t_md0 = 'D^{0} mass M(2(#pi^{+}#pi^{#minus})), GeV/c^{2}'
-    # t_pd0 = '2(#pi^{+}#pi^{#minus}) momentum (one #pi^{+}#pi^{#minus} from K_{S}, look for D^{0}), GeV/c'
     t_pd0 = 'D^{0} momentum P(2(#pi^{+}#pi^{#minus})), GeV/c'
     hmks = r.TH1D( 'hmks', 'hmks;'+t_mks, 1000, 0, 4 )
     hmd0 = r.TH1D( 'hmd0', 'hmd0;'+t_md0, 1000, 0, 4 )
